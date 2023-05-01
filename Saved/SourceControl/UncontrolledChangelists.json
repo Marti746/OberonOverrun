@@ -5,6 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Corky/OneDrive/Documents/Unreal Projects/OberonOverrun/Content/FirstPerson/Blueprints/TimerSystem.uasset",
+				"C:/Users/Corky/OneDrive/Documents/Unreal Projects/OberonOverrun/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/Corky/OneDrive/Documents/Unreal Projects/OberonOverrun/Content/FirstPerson/Widgets/Timer.uasset",
+				"C:/Users/Corky/OneDrive/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/K1/7ULIZNF7G08MGVLVVC97AC.uasset",
+				"C:/Users/Corky/OneDrive/Documents/Unreal Projects/OberonOverrun/Content/FirstPerson/Maps/FirstPersonMap.umap",
+				"C:/Users/Corky/OneDrive/Documents/Unreal Projects/OberonOverrun/Content/FirstPerson/Music/Spaceship.uasset",
 				"C:/Users/Chris/OneDrive/Documents/GitHub/OberonOverrun/Content/StarterContent/Materials/M_AssetPlatform.uasset",
 				"C:/Users/Chris/OneDrive/Documents/GitHub/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/WB/V4ALNTJYOVWM8BU452CKV5.uasset",
 				"C:/Users/Chris/OneDrive/Documents/GitHub/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/AI/0XWE3RNM2XQC0ST1KXG02O.uasset",
