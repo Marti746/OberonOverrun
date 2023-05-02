@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/AIStuff/AIDrone.uasset",
+				"C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/53/CZXAC9DRZM8FGLKTSAQWIS.uasset",
+				"C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/HM/YRPKLW4J329QJ6V34C4MFW.uasset",
 				"C:/Users/Corky/OneDrive/Documents/Unreal Projects/OberonOverrun/Content/FirstPerson/Blueprints/TimerSystem.uasset",
 				"C:/Users/Corky/OneDrive/Documents/Unreal Projects/OberonOverrun/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
 				"C:/Users/Corky/OneDrive/Documents/Unreal Projects/OberonOverrun/Content/FirstPerson/Widgets/Timer.uasset",
