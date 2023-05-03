@@ -2190,3 +2190,1035 @@ Script Stack (0 frames) :
 [2023.05.03-19.52.09:899][371]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.GrapplePoint_C_UAID_E070EAB582DB3B7C01_2025823492 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/9H/FN0VJS5JGRO89YU2Z1XIC3.PackageMetaData in its package
 [2023.05.03-19.52.09:902][371]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
 [2023.05.03-19.52.09:986][372]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.05.03-19.53.43:559][761]LogSlate: Took 0.012888 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.05.03-19.53.45:796][859]LogShaderCompilers: Display: ================================================
+[2023.05.03-19.53.45:796][859]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.03-19.53.45:796][859]LogShaderCompilers: Display: Total job queries 132, among them cache hits 18 (13.64%)
+[2023.05.03-19.53.45:796][859]LogShaderCompilers: Display: Tracking 107 distinct input hashes that result in 79 distinct outputs (73.83%)
+[2023.05.03-19.53.45:796][859]LogShaderCompilers: Display: RAM used: 0.65 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.08%
+[2023.05.03-19.53.45:796][859]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.03-19.53.45:796][859]LogShaderCompilers: Display: Shaders Compiled: 35
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display: Jobs assigned 42, completed 35 (83.33%)
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display: Average time worker was idle: 396.19 s
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display: Time job spent in pending queue: average 3.23 s, longest 18.76 s
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display: Job execution time: average 8.19 s, max 23.15 s
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display: Job life time (pending + execution): average 12.06 s, max 23.20
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 52.75 s
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display: Jobs were issued in 42 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display: Average processing rate: 0.66 jobs/sec
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display: Total thread time: 177.00 s
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display: Total thread preprocess time: 19.12 s
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display: Percentage time preprocessing: 10.80%
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display: Effective parallelization: 3.36 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display:                        FLumenTranslucencyRadianceCacheMarkVS (compiled    1 times, average 14.19 sec, max 14.19 sec, min 14.19 sec)
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display:                        FLumenFrontLayerTranslucencyGBufferVS (compiled    1 times, average 13.34 sec, max 13.34 sec, min 13.34 sec)
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display:                        FLumenTranslucencyRadianceCacheMarkPS (compiled    1 times, average 12.84 sec, max 12.84 sec, min 12.84 sec)
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 11.02 sec, max 11.02 sec, min 11.02 sec)
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 10.01 sec, max 10.01 sec, min 10.01 sec)
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display:                                                 FLumenCardVS - 17.26% of total time (compiled    5 times, average 6.11 sec, max 15.01 sec, min 1.30 sec)
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.17% of total time (compiled    6 times, average 3.89 sec, max 11.35 sec, min 1.48 sec)
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.14% of total time (compiled    6 times, average 3.58 sec, max 8.83 sec, min 1.48 sec)
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.16% of total time (compiled    6 times, average 2.41 sec, max 6.43 sec, min 0.93 sec)
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display:                        FLumenTranslucencyRadianceCacheMarkVS - 8.02% of total time (compiled    1 times, average 14.19 sec, max 14.19 sec, min 14.19 sec)
+[2023.05.03-19.53.45:797][859]LogShaderCompilers: Display: ================================================
+[2023.05.03-19.54.28:787][216]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/smallBox.smallBox
+[2023.05.03-19.54.28:787][216]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/smallBox.smallBox
+[2023.05.03-19.54.28:787][216]LogActorFactory: Actor Factory spawned StaticMesh /Game/ChrisStuff/LEVEL/smallBox.smallBox as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_4
+[2023.05.03-19.54.29:274][240]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/smallBox.smallBox
+[2023.05.03-19.54.29:274][240]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/smallBox.smallBox
+[2023.05.03-19.54.29:278][240]LogActorFactory: Actor Factory spawned StaticMesh /Game/ChrisStuff/LEVEL/smallBox.smallBox as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1346012562
+[2023.05.03-19.54.30:664][318]Cmd: DELETE
+[2023.05.03-19.54.30:664][318]Cmd: ACTOR DELETE
+[2023.05.03-19.54.30:668][318]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.03-19.54.31:115][318]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2023.05.03-19.54.31:117][318]LogEditorActor: Deleted 1 Actors (0.452 secs)
+[2023.05.03-19.54.32:265][374]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox
+[2023.05.03-19.54.32:265][374]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox
+[2023.05.03-19.54.32:265][374]LogActorFactory: Actor Factory spawned StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_7
+[2023.05.03-19.54.32:756][396]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox
+[2023.05.03-19.54.32:756][396]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox
+[2023.05.03-19.54.32:759][396]LogActorFactory: Actor Factory spawned StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1349494563
+[2023.05.03-19.54.53:557][396]LogTexture: Display: Building textures: /Game/ChrisStuff/LEVEL/pixelSheetTransparancy.pixelSheetTransparancy (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 7.72916 MB), EncodeSpeed: Fast
+[2023.05.03-19.55.12:022][340]Cmd: DELETE
+[2023.05.03-19.55.12:022][340]Cmd: ACTOR DELETE
+[2023.05.03-19.55.12:026][340]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.03-19.55.12:471][340]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2023.05.03-19.55.12:477][340]LogEditorActor: Deleted 1 Actors (0.455 secs)
+[2023.05.03-19.56.00:721][121]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.03-19.56.00:737][121]LogContentBundle: [Container: FirstPersonMap] Generating Streaming for 0 Content Bundles.
+[2023.05.03-19.56.00:742][121]LogWorldPartition: Display: GenerateStreaming started...
+[2023.05.03-19.56.00:742][121]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.05.03-19.56.00:742][121]LogWorldPartition: Display: GetPartitionedActors took 70 us (total: 13 ms)
+[2023.05.03-19.56.00:744][121]LogWorldPartition: Display: GenerateStreaming took 1 ms (total: 25 ms)
+[2023.05.03-19.56.00:746][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.03-19.56.00:746][121]PIE: New page: PIE session: FirstPersonMap (May 3, 2023, 11:56:00 AM)
+[2023.05.03-19.56.00:746][121]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.05.03-19.56.00:758][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011602s)
+[2023.05.03-19.56.00:758][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.011668s)
+[2023.05.03-19.56.00:758][121]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.03-19.56.00:758][121]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.05.03-19.56.00:759][121]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.05.03-19.56.00:759][121]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.05.03-19.56.00:759][121]LogWorldPartition: UWorldPartition::Initialize(Asset=FirstPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.05.03-19.56.00:765][121]LogContentBundle: [Container: FirstPersonMap] Creating new contrainer.
+[2023.05.03-19.56.00:765][121]LogWorldPartition: Display: WorldPartition initialize took 5 ms (total: 3.53 sec)
+[2023.05.03-19.56.00:765][121]LogPlayLevel: PIE: World Init took: (0.007086s)
+[2023.05.03-19.56.00:834][121]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2023.05.03-19.56.00:837][121]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.05.03-19.56.00:837][121]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.03-19.56.00:838][121]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.03-19.56.00:838][121]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.03-19.56.00:838][121]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.03-19.56.00:838][121]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.03-19.56.00:838][121]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.03-19.56.00:838][121]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.03-19.56.00:838][121]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.03-19.56.00:838][121]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.03-19.56.00:838][121]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.03-19.56.00:838][121]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.03-19.56.00:843][121]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.03-19.56.01:128][121]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2023.05.03-19.56.01:129][121]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.03-19.56.01:129][121]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.03-19.56.01:129][121]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.03-19.56.01:130][121]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.05.03-19.56.01:130][121]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.05.03-19.56.01:134][121]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.05.03-19.56.01:134][121]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.05.03-19.56.01:134][121]LogInit: FAudioDevice initialized.
+[2023.05.03-19.56.01:134][121]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2023.05.03-19.56.01:138][121]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.05.03-19.56.01:139][121]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.05.03-15.56.01
+[2023.05.03-19.56.01:139][121]LogWorld: Bringing up level for play took: 0.000925
+[2023.05.03-19.56.01:142][121]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2023.05.03-19.56.01:146][121]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=70221.121 Y=43958.312 Z=-10995.720
+[2023.05.03-19.56.01:146][121]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(8), CellsToLoad(0), CellsToUnload(0)
+[2023.05.03-19.56.01:146][121]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=70221.121 Y=43958.312 Z=-10995.720,P=-0.000000 Y=-75.674984 R=0.000000
+[2023.05.03-19.56.01:462][121]LogActor: Warning: Actor folder 9BA5631C41B819D19647A78537AE32AE for actor GrapplePoint_C_UAID_E070EAB582DBF17B01_1905817466 encountered when not using actor folders
+[2023.05.03-19.56.01:464][121]LogStreaming: Display: FlushAsyncLoading(-1): 14 QueuedPackages, 0 AsyncPackages
+[2023.05.03-19.56.01:578][121]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/FirstPerson/Widgets/Timer.Timer_C:ExecuteUbergraph_Timer'!
+[2023.05.03-19.56.01:578][121]LogScript: Warning: Last function called:
+	/Game/FirstPerson/Widgets/Timer.Timer_C.ExecuteUbergraph_Timer
+
+[2023.05.03-19.56.01:578][121]PIE: Server logged in
+[2023.05.03-19.56.01:579][121]PIE: Play in editor total start time 0.842 seconds.
+[2023.05.03-19.56.01:700][121]LogScript: Warning: Accessed None trying to read property TimerSystemReference
+	Timer_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.Timer_C_0
+	Function /Game/FirstPerson/Widgets/Timer.Timer_C:Get_Minutes_Text:0027
+[2023.05.03-19.56.01:701][121]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.01:701][121]LogScript: Warning: Accessed None trying to read property TimerSystemReference
+	Timer_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.Timer_C_0
+	Function /Game/FirstPerson/Widgets/Timer.Timer_C:Get_Minutes_Text:0027
+[2023.05.03-19.56.01:701][121]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.01:701][121]LogScript: Warning: Accessed None trying to read property TimerSystemReference
+	Timer_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.Timer_C_0
+	Function /Game/FirstPerson/Widgets/Timer.Timer_C:Get_Minutes_Text:0027
+[2023.05.03-19.56.01:701][121]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.01:701][121]LogScript: Warning: Accessed None trying to read property TimerSystemReference
+	Timer_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.Timer_C_0
+	Function /Game/FirstPerson/Widgets/Timer.Timer_C:Get_Seconds_Text:0027
+[2023.05.03-19.56.01:702][121]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.01:702][121]LogScript: Warning: Accessed None trying to read property TimerSystemReference
+	Timer_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.Timer_C_0
+	Function /Game/FirstPerson/Widgets/Timer.Timer_C:Get_Seconds_Text:0027
+[2023.05.03-19.56.01:702][121]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.01:702][121]LogScript: Warning: Accessed None trying to read property TimerSystemReference
+	Timer_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.Timer_C_0
+	Function /Game/FirstPerson/Widgets/Timer.Timer_C:Get_Seconds_Text:0027
+[2023.05.03-19.56.01:702][121]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.01:904][122]LogScript: Warning: Accessed None trying to read property TimerSystemReference
+	Timer_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.Timer_C_0
+	Function /Game/FirstPerson/Widgets/Timer.Timer_C:Get_Minutes_Text:0027
+[2023.05.03-19.56.01:904][122]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.01:905][122]LogScript: Warning: Accessed None trying to read property TimerSystemReference
+	Timer_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.Timer_C_0
+	Function /Game/FirstPerson/Widgets/Timer.Timer_C:Get_Minutes_Text:0027
+[2023.05.03-19.56.01:905][122]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.01:905][122]LogScript: Warning: Accessed None trying to read property TimerSystemReference
+	Timer_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.Timer_C_0
+	Function /Game/FirstPerson/Widgets/Timer.Timer_C:Get_Minutes_Text:0027
+[2023.05.03-19.56.01:905][122]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.01:905][122]LogScript: Warning: Accessed None trying to read property TimerSystemReference
+	Timer_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.Timer_C_0
+	Function /Game/FirstPerson/Widgets/Timer.Timer_C:Get_Seconds_Text:0027
+[2023.05.03-19.56.01:905][122]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.01:905][122]LogScript: Warning: Accessed None trying to read property TimerSystemReference
+	Timer_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.Timer_C_0
+	Function /Game/FirstPerson/Widgets/Timer.Timer_C:Get_Seconds_Text:0027
+[2023.05.03-19.56.01:905][122]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.01:905][122]LogScript: Warning: Accessed None trying to read property TimerSystemReference
+	Timer_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.Timer_C_0
+	Function /Game/FirstPerson/Widgets/Timer.Timer_C:Get_Seconds_Text:0027
+[2023.05.03-19.56.01:905][122]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.01:916][123]LogScript: Warning: Accessed None trying to read property TimerSystemReference
+	Timer_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.Timer_C_0
+	Function /Game/FirstPerson/Widgets/Timer.Timer_C:Get_Minutes_Text:0027
+[2023.05.03-19.56.01:917][123]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.01:917][123]LogScript: Warning: Accessed None trying to read property TimerSystemReference
+	Timer_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.Timer_C_0
+	Function /Game/FirstPerson/Widgets/Timer.Timer_C:Get_Minutes_Text:0027
+[2023.05.03-19.56.01:917][123]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.01:917][123]LogScript: Warning: Accessed None trying to read property TimerSystemReference
+	Timer_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.Timer_C_0
+	Function /Game/FirstPerson/Widgets/Timer.Timer_C:Get_Minutes_Text:0027
+[2023.05.03-19.56.01:917][123]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.01:917][123]LogScript: Warning: Accessed None trying to read property TimerSystemReference
+	Timer_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.Timer_C_0
+	Function /Game/FirstPerson/Widgets/Timer.Timer_C:Get_Seconds_Text:0027
+[2023.05.03-19.56.01:917][123]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.01:917][123]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.01:917][123]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.01:975][124]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.01:975][124]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.01:975][124]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.01:975][124]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.01:976][124]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.01:976][124]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.01:991][125]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.01:991][125]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.01:992][125]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.01:992][125]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.01:992][125]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.01:992][125]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:038][126]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:038][126]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:038][126]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:039][126]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:039][126]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:039][126]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:067][127]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:067][127]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:067][127]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:067][127]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:067][127]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:067][127]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:087][128]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:087][128]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:087][128]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:087][128]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:087][128]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:088][128]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:103][129]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:103][129]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:103][129]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:103][129]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:103][129]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:103][129]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:119][130]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:119][130]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:119][130]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:119][130]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:119][130]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:119][130]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:137][131]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:138][131]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:138][131]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:138][131]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:138][131]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:139][131]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:156][132]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:156][132]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:156][132]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:156][132]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:156][132]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:157][132]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:179][133]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:179][133]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:180][133]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:180][133]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:180][133]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:180][133]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:197][134]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:197][134]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:197][134]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:197][134]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:198][134]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:198][134]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:213][135]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:213][135]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:214][135]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:214][135]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:214][135]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:214][135]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:236][136]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:236][136]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:237][136]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:237][136]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:237][136]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:237][136]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:258][137]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:259][137]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:259][137]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:259][137]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:259][137]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:260][137]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:276][138]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:276][138]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:276][138]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:277][138]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:277][138]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:277][138]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:292][139]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:292][139]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:292][139]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:293][139]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:293][139]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:293][139]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:309][140]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:309][140]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:309][140]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:310][140]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:310][140]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:310][140]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:326][141]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:326][141]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:327][141]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:327][141]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:327][141]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:327][141]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:343][142]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:343][142]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:344][142]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:344][142]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:344][142]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:344][142]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:361][143]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:361][143]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:361][143]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:361][143]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:361][143]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:362][143]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:376][144]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:376][144]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:376][144]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:377][144]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:377][144]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:377][144]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:394][145]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:394][145]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:395][145]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:395][145]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:395][145]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:395][145]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:411][146]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:411][146]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:412][146]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:412][146]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:412][146]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:412][146]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:428][147]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:429][147]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:429][147]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:429][147]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:429][147]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:429][147]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:444][148]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:444][148]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:444][148]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:444][148]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:445][148]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:445][148]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:462][149]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:462][149]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:463][149]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:463][149]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:463][149]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:463][149]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:478][150]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:478][150]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:478][150]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:478][150]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:478][150]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:479][150]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:496][151]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:497][151]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:497][151]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:497][151]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:497][151]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:497][151]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:513][152]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:513][152]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:513][152]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:513][152]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:514][152]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:514][152]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:530][153]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:531][153]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:531][153]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:531][153]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:531][153]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:531][153]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:548][154]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:548][154]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:548][154]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:549][154]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:549][154]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:549][154]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:564][155]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:564][155]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:564][155]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:564][155]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:565][155]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:565][155]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:581][156]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:581][156]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:581][156]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:581][156]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:581][156]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:582][156]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:600][157]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:600][157]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:600][157]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:601][157]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:601][157]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:601][157]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:618][158]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:619][158]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:619][158]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:619][158]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:619][158]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:619][158]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:638][159]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:638][159]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:638][159]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:638][159]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:638][159]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:638][159]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:652][160]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:652][160]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:652][160]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:652][160]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:652][160]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:653][160]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:676][161]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:676][161]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:676][161]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:676][161]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:677][161]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:678][161]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:702][162]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:702][162]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:702][162]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:702][162]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:702][162]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:702][162]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:724][163]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:724][163]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:725][163]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:725][163]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:725][163]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:725][163]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:746][164]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:747][164]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:748][164]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:748][164]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:748][164]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:748][164]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:769][165]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:769][165]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:770][165]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:770][165]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:770][165]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:770][165]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:788][166]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:789][166]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:789][166]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:789][166]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:789][166]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:790][166]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:811][167]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:811][167]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:811][167]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:811][167]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:812][167]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:812][167]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:833][168]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:833][168]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:833][168]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:834][168]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:834][168]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:834][168]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:848][169]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:848][169]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:848][169]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:848][169]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:848][169]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:849][169]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:866][170]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:866][170]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:867][170]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:867][170]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:867][170]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:867][170]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:885][171]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:886][171]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:886][171]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:886][171]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:886][171]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:886][171]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:905][172]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:905][172]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:905][172]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:905][172]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:905][172]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:905][172]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:919][173]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:919][173]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:920][173]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:920][173]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:920][173]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:920][173]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:939][174]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:939][174]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:940][174]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:940][174]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:940][174]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:940][174]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:957][175]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:957][175]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:958][175]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:958][175]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:958][175]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:958][175]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:974][176]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:974][176]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:974][176]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:975][176]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:975][176]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:975][176]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:992][177]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:992][177]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:993][177]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.02:993][177]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:993][177]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.02:993][177]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:008][178]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:009][178]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:009][178]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:009][178]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:009][178]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:009][178]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:026][179]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:026][179]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:026][179]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:026][179]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:026][179]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:027][179]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:042][180]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:042][180]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:042][180]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:042][180]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:043][180]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:043][180]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:059][181]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:059][181]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:059][181]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:059][181]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:060][181]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:060][181]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:075][182]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:076][182]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:076][182]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:076][182]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:076][182]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:076][182]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:093][183]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:094][183]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:094][183]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:094][183]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:094][183]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:094][183]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:109][184]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:109][184]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:109][184]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:109][184]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:110][184]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:110][184]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:126][185]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:126][185]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:126][185]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:126][185]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:126][185]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:127][185]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:145][186]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:145][186]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:145][186]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:145][186]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:146][186]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:146][186]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:161][187]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:161][187]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:161][187]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:162][187]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:162][187]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:162][187]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:178][188]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:178][188]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:178][188]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:178][188]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:179][188]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:179][188]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:195][189]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:195][189]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:195][189]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:196][189]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:196][189]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:196][189]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:211][190]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:211][190]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:212][190]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:212][190]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:212][190]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:212][190]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:229][191]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:229][191]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:229][191]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:229][191]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:230][191]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:230][191]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:243][192]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:244][192]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:244][192]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:244][192]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:245][192]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:245][192]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:261][193]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:262][193]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:262][193]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:262][193]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:262][193]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:262][193]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:280][194]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:280][194]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:280][194]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:280][194]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:281][194]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:281][194]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:297][195]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:297][195]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:297][195]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:297][195]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:297][195]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:297][195]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:312][196]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:313][196]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:313][196]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:313][196]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:313][196]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:313][196]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:329][197]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:329][197]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:330][197]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:330][197]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:330][197]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:330][197]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:346][198]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:346][198]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:346][198]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:346][198]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:347][198]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:347][198]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:363][199]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:363][199]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:363][199]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:363][199]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:363][199]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:364][199]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:379][200]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:379][200]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:379][200]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:379][200]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:380][200]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:380][200]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:397][201]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:398][201]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:398][201]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:399][201]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:399][201]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:399][201]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:416][202]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:416][202]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:417][202]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:417][202]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:417][202]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:417][202]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:432][203]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:433][203]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:433][203]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:433][203]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:433][203]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:433][203]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:450][204]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:450][204]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:451][204]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:451][204]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:451][204]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:451][204]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:467][205]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:467][205]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:467][205]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:468][205]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:468][205]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:468][205]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:484][206]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:484][206]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:485][206]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:485][206]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:485][206]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:485][206]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:501][207]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:501][207]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:501][207]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:502][207]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:502][207]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:502][207]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:519][208]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:519][208]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:519][208]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:519][208]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:519][208]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:520][208]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:535][209]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:535][209]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:535][209]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:535][209]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:535][209]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:536][209]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:551][210]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:551][210]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:551][210]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:551][210]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:551][210]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:552][210]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:567][211]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:567][211]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:567][211]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:567][211]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:568][211]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:568][211]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:584][212]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:585][212]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:585][212]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:585][212]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:585][212]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:586][212]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:603][213]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:603][213]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:603][213]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:603][213]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:604][213]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:604][213]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:620][214]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:620][214]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:620][214]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:620][214]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:620][214]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:620][214]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:636][215]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:637][215]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:637][215]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:637][215]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:637][215]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:637][215]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:653][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:653][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:653][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:654][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:654][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:654][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:672][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:672][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:673][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:673][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:673][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:673][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:690][218]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:691][218]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:691][218]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:691][218]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:691][218]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:691][218]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:708][219]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:708][219]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:708][219]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Minutes_Text Function:  Get Minutes Text Blueprint:  Timer
+[2023.05.03-19.56.03:708][219]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:709][219]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:709][219]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property TimerSystemReference". Node:  Return Node Graph:  Get_Seconds_Text Function:  Get Seconds Text Blueprint:  Timer
+[2023.05.03-19.56.03:756][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-19.56.03:756][220]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.05.03-19.56.03:758][220]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-19.56.03:759][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-19.56.03:759][220]LogContentBundle: [Container: FirstPersonMap] Deleting container.
+[2023.05.03-19.56.03:773][220]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.03-19.56.03:781][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-19.56.03:850][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-19.56.03:850][220]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.05.03-19.56.03:853][220]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.05.03-19.56.03:872][220]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2023.05.03-19.56.04:290][221]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2023.05.03-19.56.07:117][354]LogSlate: Window 'Message Log' being destroyed
+[2023.05.03-19.56.07:129][354]LogSlate: Window 'Message Log' being destroyed
+[2023.05.03-19.56.56:213][ 66]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox
+[2023.05.03-19.56.56:213][ 66]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox
+[2023.05.03-19.56.56:213][ 66]LogActorFactory: Actor Factory spawned StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_10
+[2023.05.03-19.56.56:625][ 82]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox
+[2023.05.03-19.56.56:625][ 82]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox
+[2023.05.03-19.56.56:629][ 82]LogActorFactory: Actor Factory spawned StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1493363564
+[2023.05.03-19.57.45:547][588]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speaker (Realtek(R) Audio), InstanceID=1
+[2023.05.03-19.57.45:703][588]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=50772
+[2023.05.03-19.57.46:208][589]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2023.05.03-19.57.46:242][589]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/YM/LPC00PVJFMDXS6Z9A8HSZU_Auto2
+[2023.05.03-19.57.46:243][589]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/LPC00PVJFMDXS6Z9A8HSZU_Auto218B92E7A4B1167B96D6A2D86F77D37C0.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/YM/LPC00PVJFMDXS6Z9A8HSZU_Auto2.uasset'
+[2023.05.03-19.57.46:246][589]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.125
+[2023.05.03-19.57.46:246][589]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.125
+[2023.05.03-19.57.47:040][592]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{410faf11-5ef5-4467-ab17-0712ba8a1e59}, Name=Speaker (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=1168.38
+[2023.05.03-19.57.47:041][592]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.03-19.57.47:043][592]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.03-19.58.01:147][360]Cmd: DUPLICATE
+[2023.05.03-19.58.01:147][360]Cmd: ACTOR DUPLICATE
+[2023.05.03-19.58.07:608][696]Cmd: DUPLICATE
+[2023.05.03-19.58.07:608][696]Cmd: ACTOR DUPLICATE
+[2023.05.03-19.58.24:746][655]Cmd: DUPLICATE
+[2023.05.03-19.58.24:747][655]Cmd: ACTOR DUPLICATE
+[2023.05.03-19.58.29:959][959]Cmd: DUPLICATE
+[2023.05.03-19.58.29:960][959]Cmd: ACTOR DUPLICATE
+[2023.05.03-19.58.40:319][565]Cmd: DUPLICATE
+[2023.05.03-19.58.40:319][565]Cmd: ACTOR DUPLICATE
+[2023.05.03-20.01.14:482][220]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox
+[2023.05.03-20.01.14:482][220]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox
+[2023.05.03-20.01.14:483][220]LogActorFactory: Actor Factory spawned StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_11
+[2023.05.03-20.01.15:350][263]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox
+[2023.05.03-20.01.15:350][263]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox
+[2023.05.03-20.01.15:353][263]LogActorFactory: Actor Factory spawned StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1752088570
+[2023.05.03-20.01.18:304][403]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.03-20.01.18:321][403]LogContentBundle: [Container: FirstPersonMap] Generating Streaming for 0 Content Bundles.
+[2023.05.03-20.01.18:327][403]LogWorldPartition: Display: GenerateStreaming started...
+[2023.05.03-20.01.18:327][403]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.05.03-20.01.18:327][403]LogWorldPartition: Display: GetPartitionedActors took 85 us (total: 13 ms)
+[2023.05.03-20.01.18:329][403]LogWorldPartition: Display: GenerateStreaming took 2 ms (total: 27 ms)
+[2023.05.03-20.01.18:330][403]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.03-20.01.18:330][403]PIE: New page: PIE session: FirstPersonMap (May 3, 2023, 12:01:18 PM)
+[2023.05.03-20.01.18:351][403]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.05.03-20.01.18:370][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019252s)
+[2023.05.03-20.01.18:371][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.019309s)
+[2023.05.03-20.01.18:371][403]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.03-20.01.18:371][403]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.05.03-20.01.18:373][403]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.05.03-20.01.18:373][403]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.05.03-20.01.18:373][403]LogWorldPartition: UWorldPartition::Initialize(Asset=FirstPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.05.03-20.01.18:376][403]LogContentBundle: [Container: FirstPersonMap] Creating new contrainer.
+[2023.05.03-20.01.18:376][403]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 3.54 sec)
+[2023.05.03-20.01.18:376][403]LogPlayLevel: PIE: World Init took: (0.005657s)
+[2023.05.03-20.01.18:521][403]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2023.05.03-20.01.18:525][403]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.05.03-20.01.18:525][403]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.03-20.01.18:525][403]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.03-20.01.18:525][403]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.03-20.01.18:525][403]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.03-20.01.18:525][403]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.03-20.01.18:526][403]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.03-20.01.18:526][403]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.03-20.01.18:526][403]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.03-20.01.18:526][403]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.03-20.01.18:526][403]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.03-20.01.18:526][403]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.03-20.01.18:531][403]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.03-20.01.18:798][403]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.05.03-20.01.18:799][403]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.03-20.01.18:799][403]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.03-20.01.18:799][403]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.03-20.01.18:803][403]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.05.03-20.01.18:803][403]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.05.03-20.01.18:805][403]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.05.03-20.01.18:806][403]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.05.03-20.01.18:806][403]LogInit: FAudioDevice initialized.
+[2023.05.03-20.01.18:806][403]LogAudio: Display: Audio Device (ID: 7) registered with world 'FirstPersonMap'.
+[2023.05.03-20.01.18:810][403]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.05.03-20.01.18:810][403]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2023.05.03-16.01.18
+[2023.05.03-20.01.18:811][403]LogWorld: Bringing up level for play took: 0.000897
+[2023.05.03-20.01.18:814][403]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2023.05.03-20.01.18:816][403]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=7170.000 Y=2440.000 Z=302.013
+[2023.05.03-20.01.18:816][403]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(7), CellsToLoad(0), CellsToUnload(0)
+[2023.05.03-20.01.18:817][403]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=7170.000 Y=2440.000 Z=302.013,P=0.000000 Y=0.000000 R=-0.000000
+[2023.05.03-20.01.18:825][403]LogActor: Warning: Actor folder 5710F1034B6DC7FBD588718E283EB93C for actor StaticMeshActor_13 encountered when not using actor folders
+[2023.05.03-20.01.18:825][403]LogActor: Warning: Actor folder 98EA6984416B46BD4E6349A7D9A13307 for actor StaticMeshActor_26 encountered when not using actor folders
+[2023.05.03-20.01.18:825][403]LogActor: Warning: Actor folder 98EA6984416B46BD4E6349A7D9A13307 for actor StaticMeshActor_25 encountered when not using actor folders
+[2023.05.03-20.01.18:825][403]LogActor: Warning: Actor folder D00C3F324D055BED943FA6B0235C7FA2 for actor StaticMeshActor_12 encountered when not using actor folders
+[2023.05.03-20.01.18:825][403]LogActor: Warning: Actor folder D00C3F324D055BED943FA6B0235C7FA2 for actor StaticMeshActor_UAID_E070EAB582DB3B7C01_1640960488 encountered when not using actor folders
+[2023.05.03-20.01.18:825][403]LogActor: Warning: Actor folder 9AEEADCB4DC6C647D6E7C0B4EDA1744F for actor StaticMeshActor_50 encountered when not using actor folders
+[2023.05.03-20.01.18:825][403]LogActor: Warning: Actor folder 5710F1034B6DC7FBD588718E283EB93C for actor StaticMeshActor_6 encountered when not using actor folders
+[2023.05.03-20.01.18:825][403]LogActor: Warning: Actor folder 9AEEADCB4DC6C647D6E7C0B4EDA1744F for actor StaticMeshActor_1 encountered when not using actor folders
+[2023.05.03-20.01.18:825][403]LogActor: Warning: Actor folder 5710F1034B6DC7FBD588718E283EB93C for actor StaticMeshActor_5 encountered when not using actor folders
+[2023.05.03-20.01.18:825][403]LogActor: Warning: Actor folder 9AEEADCB4DC6C647D6E7C0B4EDA1744F for actor StaticMeshActor_24 encountered when not using actor folders
+[2023.05.03-20.01.18:825][403]LogActor: Warning: Actor folder 5710F1034B6DC7FBD588718E283EB93C for actor StaticMeshActor_15 encountered when not using actor folders
+[2023.05.03-20.01.18:825][403]LogActor: Warning: Actor folder D00C3F324D055BED943FA6B0235C7FA2 for actor StaticMeshActor_17 encountered when not using actor folders
+[2023.05.03-20.01.18:825][403]LogActor: Warning: Actor folder 9AEEADCB4DC6C647D6E7C0B4EDA1744F for actor StaticMeshActor_43 encountered when not using actor folders
+[2023.05.03-20.01.18:826][403]LogActor: Warning: Actor folder 6C02BB504B69D1F3D7A624B130C18E5B for actor StaticMeshActor_0 encountered when not using actor folders
+[2023.05.03-20.01.18:826][403]LogActor: Warning: Actor folder 9AEEADCB4DC6C647D6E7C0B4EDA1744F for actor StaticMeshActor_49 encountered when not using actor folders
+[2023.05.03-20.01.18:826][403]LogActor: Warning: Actor folder 9AEEADCB4DC6C647D6E7C0B4EDA1744F for actor StaticMeshActor_30 encountered when not using actor folders
+[2023.05.03-20.01.18:826][403]LogActor: Warning: Actor folder D00C3F324D055BED943FA6B0235C7FA2 for actor StaticMeshActor_41 encountered when not using actor folders
+[2023.05.03-20.01.18:826][403]LogActor: Warning: Actor folder 9AEEADCB4DC6C647D6E7C0B4EDA1744F for actor StaticMeshActor_44 encountered when not using actor folders
+[2023.05.03-20.01.18:826][403]LogActor: Warning: Actor folder 5710F1034B6DC7FBD588718E283EB93C for actor StaticMeshActor_14 encountered when not using actor folders
+[2023.05.03-20.01.18:826][403]LogActor: Warning: Actor folder 6C02BB504B69D1F3D7A624B130C18E5B for actor StaticMeshActor_UAID_A4BB6D66E32B217D01_1176767967 encountered when not using actor folders
+[2023.05.03-20.01.18:826][403]LogActor: Warning: Actor folder 9AEEADCB4DC6C647D6E7C0B4EDA1744F for actor StaticMeshActor_8 encountered when not using actor folders
+[2023.05.03-20.01.18:826][403]LogActor: Warning: Actor folder D00C3F324D055BED943FA6B0235C7FA2 for actor StaticMeshActor_18 encountered when not using actor folders
+[2023.05.03-20.01.18:826][403]LogActor: Warning: Actor folder D00C3F324D055BED943FA6B0235C7FA2 for actor StaticMeshActor_19 encountered when not using actor folders
+[2023.05.03-20.01.18:826][403]LogActor: Warning: Actor folder 0C5AB36945998C19C9EA9283402A8E02 for actor StaticMeshActor_16 encountered when not using actor folders
+[2023.05.03-20.01.18:826][403]LogActor: Warning: Actor folder 9AEEADCB4DC6C647D6E7C0B4EDA1744F for actor StaticMeshActor_51 encountered when not using actor folders
+[2023.05.03-20.01.18:826][403]LogActor: Warning: Actor folder 98EA6984416B46BD4E6349A7D9A13307 for actor StaticMeshActor_28 encountered when not using actor folders
+[2023.05.03-20.01.18:826][403]LogActor: Warning: Actor folder 98EA6984416B46BD4E6349A7D9A13307 for actor StaticMeshActor_27 encountered when not using actor folders
+[2023.05.03-20.01.18:826][403]LogActor: Warning: Actor folder 9AEEADCB4DC6C647D6E7C0B4EDA1744F for actor StaticMeshActor_38 encountered when not using actor folders
+[2023.05.03-20.01.18:826][403]LogActor: Warning: Actor folder 0C5AB36945998C19C9EA9283402A8E02 for actor StaticMeshActor_UAID_E070EAB582DB3B7C01_1427550487 encountered when not using actor folders
+[2023.05.03-20.01.18:826][403]LogActor: Warning: Actor folder 9AEEADCB4DC6C647D6E7C0B4EDA1744F for actor StaticMeshActor_29 encountered when not using actor folders
+[2023.05.03-20.01.18:826][403]LogActor: Warning: Actor folder 6C02BB504B69D1F3D7A624B130C18E5B for actor StaticMeshActor_9 encountered when not using actor folders
+[2023.05.03-20.01.18:826][403]LogActor: Warning: Actor folder 9AEEADCB4DC6C647D6E7C0B4EDA1744F for actor StaticMeshActor_20 encountered when not using actor folders
+[2023.05.03-20.01.18:832][403]LogStreaming: Display: FlushAsyncLoading(-1): 10 QueuedPackages, 0 AsyncPackages
+[2023.05.03-20.01.18:936][403]PIE: Server logged in
+[2023.05.03-20.01.18:936][403]PIE: Play in editor total start time 0.616 seconds.
+[2023.05.03-20.01.30:501][ 59]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-20.01.30:501][ 59]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.05.03-20.01.30:503][ 59]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-20.01.30:504][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-20.01.30:504][ 59]LogContentBundle: [Container: FirstPersonMap] Deleting container.
+[2023.05.03-20.01.30:519][ 59]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.03-20.01.30:527][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-20.01.30:597][ 59]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.03-20.01.30:597][ 59]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.05.03-20.01.30:601][ 59]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.05.03-20.01.30:613][ 59]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-20.01.30:620][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2023.05.03-20.01.30:706][ 60]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.05.03-20.01.36:393][388]Cmd: DELETE
+[2023.05.03-20.01.36:393][388]Cmd: ACTOR DELETE
+[2023.05.03-20.01.36:397][388]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.03-20.01.36:469][388]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.05.03-20.01.36:472][388]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2023.05.03-20.02.32:173][255]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/medBod.medBod
+[2023.05.03-20.02.32:173][255]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/medBod.medBod
+[2023.05.03-20.02.32:174][255]LogActorFactory: Actor Factory spawned StaticMesh /Game/ChrisStuff/LEVEL/medBod.medBod as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_21
+[2023.05.03-20.02.33:960][348]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/medBod.medBod
+[2023.05.03-20.02.33:960][348]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/medBod.medBod
+[2023.05.03-20.02.33:963][348]LogActorFactory: Actor Factory spawned StaticMesh /Game/ChrisStuff/LEVEL/medBod.medBod as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1830698571
+[2023.05.03-20.02.39:299][662]Cmd: DELETE
+[2023.05.03-20.02.39:299][662]Cmd: ACTOR DELETE
+[2023.05.03-20.02.39:303][662]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.03-20.02.39:375][662]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2023.05.03-20.02.39:380][662]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2023.05.03-20.02.46:186][ 50]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox
+[2023.05.03-20.02.46:186][ 50]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox
+[2023.05.03-20.02.46:186][ 50]LogActorFactory: Actor Factory spawned StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_22
+[2023.05.03-20.02.47:205][102]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox
+[2023.05.03-20.02.47:205][102]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox
+[2023.05.03-20.02.47:209][102]LogActorFactory: Actor Factory spawned StaticMesh /Game/ChrisStuff/LEVEL/lrgBox.lrgBox as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1843943572
+[2023.05.03-20.03.07:447][232]Cmd: DUPLICATE
+[2023.05.03-20.03.07:447][232]Cmd: ACTOR DUPLICATE
+[2023.05.03-20.03.59:894][201]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/medBod.medBod
+[2023.05.03-20.03.59:894][201]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/medBod.medBod
+[2023.05.03-20.03.59:895][201]LogActorFactory: Actor Factory spawned StaticMesh /Game/ChrisStuff/LEVEL/medBod.medBod as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_23
+[2023.05.03-20.04.01:966][304]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/medBod.medBod
+[2023.05.03-20.04.01:966][304]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ChrisStuff/LEVEL/medBod.medBod
+[2023.05.03-20.04.01:969][304]LogActorFactory: Actor Factory spawned StaticMesh /Game/ChrisStuff/LEVEL/medBod.medBod as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1918704574
+[2023.05.03-20.04.27:708][710]Cmd: DUPLICATE
+[2023.05.03-20.04.27:708][710]Cmd: ACTOR DUPLICATE
+[2023.05.03-20.04.39:932][406]Cmd: DUPLICATE
+[2023.05.03-20.04.39:932][406]Cmd: ACTOR DUPLICATE
+[2023.05.03-20.05.04:012][737]Cmd: DUPLICATE
+[2023.05.03-20.05.04:012][737]Cmd: ACTOR DUPLICATE
+[2023.05.03-20.05.54:015][621]Cmd: DUPLICATE
+[2023.05.03-20.05.54:015][621]Cmd: ACTOR DUPLICATE
+[2023.05.03-20.06.22:312][127]Cmd: DUPLICATE
+[2023.05.03-20.06.22:312][127]Cmd: ACTOR DUPLICATE
+[2023.05.03-20.07.49:042][694]Cmd: DUPLICATE
+[2023.05.03-20.07.49:042][694]Cmd: ACTOR DUPLICATE
+[2023.05.03-20.08.15:991][195]Cmd: DELETE
+[2023.05.03-20.08.15:991][195]Cmd: ACTOR DELETE
+[2023.05.03-20.08.15:997][195]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.03-20.08.16:083][195]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2023.05.03-20.08.16:088][195]LogEditorActor: Deleted 1 Actors (0.097 secs)
+[2023.05.03-20.08.51:534][199]Cmd: DUPLICATE
+[2023.05.03-20.08.51:534][199]Cmd: ACTOR DUPLICATE
+[2023.05.03-20.15.13:819][463]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2023.05.03-20.15.13:839][463]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.03-20.15.14:008][463]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1830698571 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/55/DIH8W10V86SGAQXC6U438Q.PackageMetaData in its package
+[2023.05.03-20.15.14:008][463]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_2145781580 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/TL/3ZUD7YTTA0TCAAN7C0J0OT.PackageMetaData in its package
+[2023.05.03-20.15.14:009][463]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1752088570 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/YL/USIIR0X7QV45ABZF97GE5U.PackageMetaData in its package
+[2023.05.03-20.15.14:011][463]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1346012562 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/XQ/UEY8BHBW6NWAQ7GE7TT29Y.PackageMetaData in its package
+[2023.05.03-20.15.14:013][463]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2023.05.03-20.15.14:093][463]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2023.05.03-20.15.14:174][463]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.05.03-20.15.14:181][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/YM/LPC00PVJFMDXS6Z9A8HSZU
+[2023.05.03-20.15.14:183][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/LPC00PVJFMDXS6Z9A8HSZU8881841E4478C0658D4EE68B4A6E2AE0.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/YM/LPC00PVJFMDXS6Z9A8HSZU.uasset'
+[2023.05.03-20.15.14:188][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/HU/E5HW4R7I1E5L5NF17K1OLY
+[2023.05.03-20.15.14:189][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/E5HW4R7I1E5L5NF17K1OLY725D7D9D45D6431C949773A7FA88996B.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/HU/E5HW4R7I1E5L5NF17K1OLY.uasset'
+[2023.05.03-20.15.14:194][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/0P/H9IDUJ5S5QZQVTYJZAIWWL
+[2023.05.03-20.15.14:194][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/H9IDUJ5S5QZQVTYJZAIWWLFD8BDD324C915C4D4D2400A1F75D7D0D.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/0P/H9IDUJ5S5QZQVTYJZAIWWL.uasset'
+[2023.05.03-20.15.14:199][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/O8/TPN7MTZMEDFG5Z2RPGDYB8
+[2023.05.03-20.15.14:199][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/TPN7MTZMEDFG5Z2RPGDYB8E3D08D1C4B6DF58E8B44129E89389288.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/O8/TPN7MTZMEDFG5Z2RPGDYB8.uasset'
+[2023.05.03-20.15.14:204][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/5B/A9NZ1TDDWZ9FJBZRPIJC01
+[2023.05.03-20.15.14:204][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/A9NZ1TDDWZ9FJBZRPIJC0129D21EC64B0C5E5D34CEAB84FB1CF98D.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/5B/A9NZ1TDDWZ9FJBZRPIJC01.uasset'
+[2023.05.03-20.15.14:210][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/VR/72R7IAPGBE2VPY85I4I2DE
+[2023.05.03-20.15.14:210][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/72R7IAPGBE2VPY85I4I2DEAEB71F5E44D3BB1D53AB75AA169503AE.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/VR/72R7IAPGBE2VPY85I4I2DE.uasset'
+[2023.05.03-20.15.14:215][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/XN/YJR4G9Q7O9BUDBVFFFBFLB
+[2023.05.03-20.15.14:215][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/YJR4G9Q7O9BUDBVFFFBFLBA6917FD04AEAAB442C9D5B9EC0073BE4.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/XN/YJR4G9Q7O9BUDBVFFFBFLB.uasset'
+[2023.05.03-20.15.14:220][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/AX/O4S7HZTJ23PUTC9WAW1FWG
+[2023.05.03-20.15.14:220][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/O4S7HZTJ23PUTC9WAW1FWGFE6133D541B7FB0A1C9EFBAC20D1A7A5.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/AX/O4S7HZTJ23PUTC9WAW1FWG.uasset'
+[2023.05.03-20.15.14:225][463]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/4/EZ/3CK8YN1BM1V05L1KTXSOTN
+[2023.05.03-20.15.14:225][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/3CK8YN1BM1V05L1KTXSOTN8C22EA0143E6B9CA2AD832B79C6B2681.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/4/EZ/3CK8YN1BM1V05L1KTXSOTN.uasset'
+[2023.05.03-20.15.14:231][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/6P/AGA9U5NT1DF36JFN3MPSK8
+[2023.05.03-20.15.14:231][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/AGA9U5NT1DF36JFN3MPSK807FE8DDA4842C453D76F94BDA306DDB6.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/6P/AGA9U5NT1DF36JFN3MPSK8.uasset'
+[2023.05.03-20.15.14:235][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/IA/2QTN847CW0EN4YPIZ81CKS
+[2023.05.03-20.15.14:236][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/2QTN847CW0EN4YPIZ81CKS10D573E649DA0DC835C70089876D873C.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/IA/2QTN847CW0EN4YPIZ81CKS.uasset'
+[2023.05.03-20.15.14:242][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/YV/KIRYSBNRYYGVDD8YMJWPZV
+[2023.05.03-20.15.14:242][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/KIRYSBNRYYGVDD8YMJWPZV6FC84B0243BBA7A508A42FA5856AA67A.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/YV/KIRYSBNRYYGVDD8YMJWPZV.uasset'
+[2023.05.03-20.15.14:248][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/35/NBC5HI16VEL5OG239244SM
+[2023.05.03-20.15.14:249][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/NBC5HI16VEL5OG239244SM915BAC6D4B29C9C313C0B29DE855DD84.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/35/NBC5HI16VEL5OG239244SM.uasset'
+[2023.05.03-20.15.14:254][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/2M/APKFJYS7QE2IAVYQAEMNPG
+[2023.05.03-20.15.14:254][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/APKFJYS7QE2IAVYQAEMNPGED89BCF040B66319EB626FACC5C555C9.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/2M/APKFJYS7QE2IAVYQAEMNPG.uasset'
+[2023.05.03-20.15.14:261][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/BT/94I8OIDC0J7GE7O8P6H96Y
+[2023.05.03-20.15.14:261][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/94I8OIDC0J7GE7O8P6H96YFED083174611D7B1A48B78AB3577412E.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/BT/94I8OIDC0J7GE7O8P6H96Y.uasset'
+[2023.05.03-20.15.14:266][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/3F/7H46XCZYPX8EODUKMUUPC5
+[2023.05.03-20.15.14:266][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/7H46XCZYPX8EODUKMUUPC5FD4BBE2740473B52EA594192404F006B.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/3F/7H46XCZYPX8EODUKMUUPC5.uasset'
+[2023.05.03-20.15.14:273][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/6M/G1150LSV45D6F8YU34HIK8
+[2023.05.03-20.15.14:273][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/G1150LSV45D6F8YU34HIK8EA2AA3744DDEC1ABAC8284ACA7C4FB7A.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/6M/G1150LSV45D6F8YU34HIK8.uasset'
+[2023.05.03-20.15.14:279][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/4S/KQ8B1XTX43M0KAL7GO6DXV
+[2023.05.03-20.15.14:279][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/KQ8B1XTX43M0KAL7GO6DXVA480D5D34AA29874AAA5B6916568735B.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/4S/KQ8B1XTX43M0KAL7GO6DXV.uasset'
+[2023.05.03-20.15.14:286][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8U/9CMBJ4PRBBXN1QIYCM6EGR
+[2023.05.03-20.15.14:286][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/9CMBJ4PRBBXN1QIYCM6EGRE3B19CAA43590F6EA172319BBFBAF83D.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8U/9CMBJ4PRBBXN1QIYCM6EGR.uasset'
+[2023.05.03-20.15.14:292][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/OW/QW732UAQ06PSCA2Y4XSMXI
+[2023.05.03-20.15.14:292][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/QW732UAQ06PSCA2Y4XSMXIF4306B8447D76304402963931D01051E.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/OW/QW732UAQ06PSCA2Y4XSMXI.uasset'
+[2023.05.03-20.15.14:298][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/1R/KHS5G4UQBJZ1ZO1QPWCMO8
+[2023.05.03-20.15.14:298][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/KHS5G4UQBJZ1ZO1QPWCMO86A69351D4235052584C2D2A8691965B4.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/1R/KHS5G4UQBJZ1ZO1QPWCMO8.uasset'
+[2023.05.03-20.15.14:304][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/LM/HE9CW3AFQA37L74CT8XWLE
+[2023.05.03-20.15.14:304][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/HE9CW3AFQA37L74CT8XWLE95C37A044B19B563419029BE47EAC495.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/LM/HE9CW3AFQA37L74CT8XWLE.uasset'
+[2023.05.03-20.15.14:309][463]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/0Y/8FN3L2T2IRV1M5HS2SKG07
+[2023.05.03-20.15.14:309][463]LogSavePackage: Moving 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Saved/8FN3L2T2IRV1M5HS2SKG07CD3E02B94DCCC767F7F80BA6F69745E2.tmp' to 'C:/Users/HP/Documents/Unreal Projects/OberonOverrun/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/0Y/8FN3L2T2IRV1M5HS2SKG07.uasset'
+[2023.05.03-20.15.14:330][463]LogFileHelpers: InternalPromptForCheckoutAndSave took 490 ms (total: 2.52 sec)
+[2023.05.03-20.15.14:342][463]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.03-20.15.14:342][463]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/GrapplePoint.GrapplePoint_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.GrapplePoint_C_UAID_E070EAB582DBF17B01_1905817466
+[2023.05.03-20.15.14:342][463]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1349494563
+[2023.05.03-20.15.14:342][463]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_2145792585
+[2023.05.03-20.15.14:342][463]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_2145790584
+[2023.05.03-20.15.14:342][463]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_2145788583
+[2023.05.03-20.15.14:342][463]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_2145786582
+[2023.05.03-20.15.14:342][463]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_2145784581
+[2023.05.03-20.15.14:343][463]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/GrapplePoint.GrapplePoint_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.GrapplePoint_C_UAID_E070EAB582DB0D7F01_2059051579
+[2023.05.03-20.15.14:343][463]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1493363564
+[2023.05.03-20.15.14:343][463]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1918704574
+[2023.05.03-20.15.14:343][463]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/GrapplePoint.GrapplePoint_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.GrapplePoint_C_UAID_E070EAB582DB0D7F01_2030754578
+[2023.05.03-20.15.14:343][463]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1980751577
+[2023.05.03-20.15.14:343][463]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ActorFolder_UID_C5627E60-47B062A8-18CA3BA1-9DA2016F
+[2023.05.03-20.15.14:343][463]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1956671576
+[2023.05.03-20.15.14:343][463]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1944447575
+[2023.05.03-20.15.14:343][463]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1597058569
+[2023.05.03-20.15.14:343][463]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1586698568
+[2023.05.03-20.15.14:343][463]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1864186573
+[2023.05.03-20.15.14:343][463]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1581485567
+[2023.05.03-20.15.14:343][463]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1564347566
+[2023.05.03-20.15.14:343][463]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1843943572
+[2023.05.03-20.15.14:343][463]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1558268565
+[2023.05.03-20.15.14:343][463]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0E7F01_1134531762
+[2023.05.03-20.15.14:413][463]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E070EAB582DB0D7F01_1188592561 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/65/NKHVA2RF9BP9728Z33RXNG.PackageMetaData in its package
+[2023.05.03-20.15.14:417][463]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2023.05.03-20.15.14:537][464]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
