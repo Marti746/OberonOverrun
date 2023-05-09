@@ -5,6 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Corky/OneDrive/Documents/Unreal Projects/OberonOverrun/Content/FirstPerson/Maps/FirstPersonMap.umap",
+				"C:/Users/Corky/OneDrive/Documents/Unreal Projects/OberonOverrun/Content/FX/MainMenu.umap",
+				"C:/Users/Corky/OneDrive/Documents/Unreal Projects/OberonOverrun/Content/FX/NS_Galaxy_Blueprint.uasset",
+				"C:/Users/Corky/OneDrive/Documents/Unreal Projects/OberonOverrun/Content/FirstPerson/Maps/LoadingScreen.umap",
+				"C:/Users/Corky/OneDrive/Documents/Unreal Projects/OberonOverrun/Content/FirstPerson/Widgets/Loading.uasset",
+				"C:/Users/Corky/OneDrive/Documents/Unreal Projects/OberonOverrun/Content/FirstPerson/Maps/FirstLevel.umap",
 				"C:/Users/Chris/OneDrive/Documents/GitHub/OberonOverrun/Content/FirstPerson/Maps/TestLevel.umap",
 				"C:/Users/Chris/OneDrive/Documents/GitHub/OberonOverrun/Content/FirstPerson/Blueprints/BP_cameraShake.uasset",
 				"C:/Users/Chris/OneDrive/Documents/GitHub/OberonOverrun/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
